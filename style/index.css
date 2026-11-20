@@ -1,17 +1,1 @@
-.node rect {
-  stroke: #333;
-  fill: #fff;
-  stroke-width: 1.5px;
-}
-
-.edgePath path.path {
-  stroke: #333;
-  fill: none;
-  stroke-width: 1.5px;
-}
-
-.arrowhead {
-  stroke: blue;
-  fill: blue;
-  stroke-width: 1.5px;
-}
+@import url('base.css');

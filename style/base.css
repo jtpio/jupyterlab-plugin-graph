@@ -1,0 +1,71 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+.jp-PluginGraph {
+  min-width: 240px;
+  min-height: 240px;
+  background: var(--jp-layout-color1);
+}
+
+/* The default input is taller than the toolbar. */
+.jp-PluginGraph-filter input {
+  width: 220px;
+  height: var(--jp-flat-button-height);
+  line-height: var(--jp-flat-button-height);
+}
+
+.jp-PluginGraph-filter .jp-InputGroupAction {
+  bottom: 0;
+  padding: 4px 6px;
+}
+
+.jp-PluginGraph-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 6px;
+  color: var(--jp-ui-font-color1);
+  font-size: var(--jp-ui-font-size1);
+}
+
+.jp-PluginGraph-toggle input {
+  margin: 0;
+}
+
+.jp-PluginGraph-counts {
+  padding: 0 8px;
+  color: var(--jp-ui-font-color2);
+  font-size: var(--jp-ui-font-size1);
+  white-space: nowrap;
+}
+
+.jp-PluginGraph-tooltip {
+  max-width: 420px;
+  color: var(--jp-ui-font-color1);
+  font-size: var(--jp-ui-font-size1);
+  white-space: normal !important;
+}
+
+.jp-PluginGraph-tooltip p {
+  margin: 4px 0 0;
+  color: var(--jp-ui-font-color2);
+}
+
+.jp-PluginGraph-tooltip dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 12px;
+  margin: 8px 0 0;
+}
+
+.jp-PluginGraph-tooltip dt {
+  color: var(--jp-ui-font-color2);
+}
+
+.jp-PluginGraph-tooltip dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}

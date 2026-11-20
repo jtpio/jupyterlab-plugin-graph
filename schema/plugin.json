@@ -1,0 +1,28 @@
+{
+  "jupyter.lab.menus": {
+    "main": [
+      {
+        "id": "jp-mainmenu-help",
+        "items": [
+          {
+            "type": "separator",
+            "rank": 1
+          },
+          {
+            "command": "jupyterlab-plugin-graph:open",
+            "rank": 1
+          },
+          {
+            "type": "separator",
+            "rank": 1
+          }
+        ]
+      }
+    ]
+  },
+  "title": "Plugin Graph",
+  "description": "Plugin Graph settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}

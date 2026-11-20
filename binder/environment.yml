@@ -1,0 +1,23 @@
+# a mybinder.org-ready environment for demoing jupyterlab_plugin_graph
+# this environment may also be used locally on Linux/MacOS/Windows, e.g.
+#
+#   conda env update --file binder/environment.yml
+#   conda activate jupyterlab-plugin-graph-demo
+#
+name: jupyterlab-plugin-graph-demo
+
+channels:
+  - conda-forge
+
+dependencies:
+  # runtime dependencies
+  # Binder (repo2docker) reads only the `python=X.Y` form, and 3.14 is the
+  # latest version that it supports.
+  - python=3.14
+  - jupyterlab >=4.0.0,<5
+  # labextension build dependencies
+  - nodejs >=22,<23
+  - pip
+  - wheel
+  # additional packages for demos
+  # - ipywidgets

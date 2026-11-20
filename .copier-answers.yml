@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.6.5
+_src_path: https://github.com/jupyterlab/extension-template
+advanced: false
+author_email: ''
+author_name: JupyterLab Contrib Team
+has_ai_rules: false
+has_binder: true
+has_settings: true
+kind: frontend
+labextension_name: jupyterlab-plugin-graph
+project_short_description: JupyterLab extension to show an interactive dependency
+    graph of the installed plugins
+python_name: jupyterlab_plugin_graph
+repository: https://github.com/jupyterlab-contrib/jupyterlab-plugin-graph
+test: true
+

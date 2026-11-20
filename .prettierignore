@@ -2,5 +2,7 @@ node_modules
 **/node_modules
 **/lib
 **/package.json
-
-jupyterlab_plugin_graph/labextension
+!/package.json
+jupyterlab_plugin_graph
+eslint.config.mjs
+.venv
